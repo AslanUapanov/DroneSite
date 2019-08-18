@@ -1,0 +1,535 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.logo>a{
+		font-size: 40px;
+	}
+	.navbar_menu{
+		padding: 0;
+		margin: 0;
+	}
+	.navbar_menu>li>a{
+		font-size: 10px;
+		margin: 0px 5px;
+	}
+	.btn>img{
+		width: 90px;
+		margin: -30px 60px
+	}
+	.header_description>h2{
+		line-height: 60px;
+		font-size: 40px;
+		margin: 50px 0px 10px 0px;
+	}
+	.super_drone{
+		padding: 0;
+		margin: 0;
+	}
+	.super_drone h3{
+		text-align: center;
+		margin: 0;
+		font-size: 40px;
+		margin-top: 25px;
+	}
+	.super_drone p{
+		font-size: 14px;
+		padding: 20px;
+		margin: 0;
+	}
+	.super_drone a{
+		margin: 20px;
+	}
+	.head_descr{
+		margin-top: 25px;
+	}
+	.head_descr p{
+		padding: 0px 5px;
+	}
+	.super_services_items{
+		margin: 20px;
+		display: flex;
+		flex-direction: column
+	}
+	.super_services_items h3{
+		font-size: 20px;
+		text-align: center;
+	}
+	.icon{
+		text-align: center;
+	}
+	.head_drone_att h2{
+		margin: 0;
+		margin-top: 40px;
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.head_drone_att p{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 25px;
+	}
+	.image_drone>img{
+		width: 350px;
+	}
+	.static_drone_wrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.statistic_drone{
+		margin: 0;
+	}
+	.column1, .column2{
+		margin-left: 35px;
+	}
+	.drone_carusel_descr>h2{
+		margin: 28px;
+		line-height: 50px;
+	}
+	.drone_carusel_descr>p{
+		font-size: 16px;
+		margin: 0;
+	}
+	.drone_carusel_img>img{
+		padding: 0;
+		width: 350px;
+	}
+	.drone_carusel_image{
+		margin: -175px 0px;
+	}
+	.drone_carusel_array_right, .drone_carusel_array_left{
+		margin: 215px 50px;
+	}
+	.drone_carusel_image > img{
+		width: 300px;
+		height: 300px;
+		margin: 250px 100px;
+	}
+	.drone_carusel{
+		height: 0;
+	}
+	.drone_cart{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.drimg1{
+		width: 260px;
+		height: 135px;
+	}
+	.sell_drone_cart>img{
+		width: 260px;
+	}
+	.footer_top_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_nav>li{
+		padding: 0;
+		display: block;
+	}
+	.footer_nav>li>a{
+		font-size: 20px;
+	}
+	footer>p{
+		padding: 0;
+		text-align: center;
+	}
+	.footer_center_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_center_descr>ul{
+		padding: 30px;
+	}
+	.footer_center_descr>ul>li>a{
+		padding: 0px 75px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.logo>a{
+		font-size: 40px;
+	}
+	.navbar_menu{
+		padding: 0;
+		margin: 0;
+	}
+	.navbar_menu>li>a{
+		font-size: 10px;
+		margin: 0px 5px;
+	}
+	.btn>img{
+		width: 90px;
+		margin: -30px 60px
+	}
+	.header_description>h2{
+		line-height: 60px;
+		font-size: 40px;
+		margin: 50px 0px 10px 0px;
+	}
+	.super_drone{
+		padding: 0;
+		margin: 0;
+	}
+	.super_drone h3{
+		text-align: center;
+		margin: 0;
+		font-size: 40px;
+		margin-top: 25px;
+	}
+	.super_drone p{
+		font-size: 14px;
+		padding: 20px;
+		margin: 0;
+	}
+	.super_drone a{
+		margin: 20px;
+	}
+	.head_descr{
+		margin-top: 25px;
+	}
+	.head_descr p{
+		padding: 0px 5px;
+	}
+	.super_services_items{
+		margin: 20px;
+		display: flex;
+		flex-direction: column
+	}
+	.super_services_items h3{
+		font-size: 20px;
+		text-align: center;
+	}
+	.icon{
+		text-align: center;
+	}
+	.head_drone_att h2{
+		margin: 0;
+		margin-top: 40px;
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.head_drone_att p{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 25px;
+	}
+	.image_drone>img{
+		width: 350px;
+	}
+	.static_drone_wrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.statistic_drone{
+		margin: 0;
+	}
+	.column1, .column2{
+		margin-left: 35px;
+	}
+	.drone_carusel_descr>h2{
+		margin: 28px;
+		line-height: 50px;
+	}
+	.drone_carusel_descr>p{
+		font-size: 16px;
+		margin: 0;
+	}
+	.drone_carusel_img>img{
+		padding: 0;
+		width: 350px;
+	}
+	.drone_cart{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.drimg1{
+		width: 260px;
+		height: 135px;
+	}
+	.sell_drone_cart>img{
+		width: 260px;
+	}
+	.footer_top_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_nav>li{
+		padding: 0;
+		display: block;
+	}
+	.footer_nav>li>a{
+		font-size: 20px;
+	}
+	footer>p{
+		padding: 0;
+		text-align: center;
+	}
+	.footer_center_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_center_descr>ul{
+		padding: 30px;
+	}
+	.footer_center_descr>ul>li>a{
+		padding: 0px 75px;
+	}
+	.drone_carusel_image{
+		margin: -115px 0px;
+	}
+	.drone_carusel_array_right, .drone_carusel_array_left{
+		margin: 130px 8px;
+	}
+	.drone_carusel_image > img{
+		width: 300px;
+		height: 300px;
+		margin: 100px 20px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	.logo>a{
+		font-size: 40px;
+	}
+	.navbar_menu{
+		padding: 0;
+		margin: 0;
+	}
+	.navbar_menu>li>a{
+		font-size: 10px;
+		margin: 0px 5px;
+	}
+	.btn>img{
+		width: 90px;
+		margin: -30px 60px
+	}
+	.header_description>h2{
+		line-height: 60px;
+		font-size: 40px;
+		margin: 50px 0px 10px 0px;
+	}
+	.super_drone{
+		padding: 0;
+		margin: 0;
+	}
+	.super_drone h3{
+		text-align: center;
+		margin: 0;
+		font-size: 40px;
+		margin-top: 25px;
+	}
+	.super_drone p{
+		font-size: 14px;
+		padding: 20px;
+		margin: 0;
+	}
+	.super_drone a{
+		margin: 20px;
+	}
+	.head_descr{
+		margin-top: 25px;
+	}
+	.head_descr p{
+		padding: 0px 5px;
+	}
+	.super_services_items{
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.super_services_items h3{
+		font-size: 20px;
+		text-align: center;
+	}
+	.icon{
+		text-align: center;
+	}
+	.head_drone_att h2{
+		margin: 0;
+		margin-top: 40px;
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.head_drone_att p{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 25px;
+	}
+	.image_drone>img{
+		width: 100%;
+	}
+	.static_drone_wrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.statistic_drone{
+		margin: 0;
+	}
+	.column1, .column2{
+		margin-left: 35px;
+	}
+	.drone_carusel_descr>h2{
+		margin: 28px;
+		line-height: 50px;
+	}
+	.drone_carusel_descr>p{
+		font-size: 16px;
+		margin: 0;
+	}
+	.drone_carusel_img>img{
+		padding: 0;
+		width: 350px;
+	}
+	.drone_cart{
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+	.drimg1{
+		width: 260px;
+		height: 135px;
+	}
+	.sell_drone_cart>img{
+		width: 260px;
+	}
+	.footer_top_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_nav>li{
+		padding: 0;
+		display: block;
+	}
+	.footer_nav>li>a{
+		font-size: 20px;
+	}
+	footer>p{
+		padding: 0;
+		text-align: center;
+	}
+	.footer_center_descr{
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: none;
+		padding: 0;
+	}
+	.footer_center_descr>ul{
+		padding: 30px;
+	}
+	.footer_center_descr>ul>li>a{
+		padding: 0px 75px;
+	}
+	.drone_carusel_image{
+	}
+	.drone_carusel_array_right, .drone_carusel_array_left{
+		margin: 130px 5px;
+	}
+	.drone_carusel_image > img{
+		width: 250px;
+		height: 250px;
+		margin: 115px 15px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	img{
+	object-fit: cover;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.drone_carusel_image {
+		margin: -20px 0px;
+	}
+	.drone_carusel_array_left, .drone_carusel_array_right {
+		margin: 200px 20px;
+	}
+	.drone_carusel_image > img {
+		width: 500px;
+		height: 500px;
+		margin: -10px 75px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.drone_carusel_image > img {
+		margin: -100px 80px;
+		width: 700px;
+		height: 700px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.drone_carusel_image > img {
+		margin: -100px 80px;
+		width: 100%;
+		height: 700px;
+	}
+}
